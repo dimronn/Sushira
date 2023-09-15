@@ -4,7 +4,7 @@ const cors = require('cors')
 const User = require('./controllers/users')
 const {connect} = require('./connect')
 const app = express()
-const port = 3000
+const port = 4001
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())
