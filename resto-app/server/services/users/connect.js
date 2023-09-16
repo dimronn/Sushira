@@ -17,12 +17,12 @@ async function connect() {
     db = client.db(dbName);
     return db;
   } catch (err) {
-    console.log(err.stack);
+    console.log(err.stack); 
   }
 }
 
 function getDb() {
-    return db
+    return db 
 }
 
 
