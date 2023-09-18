@@ -26,6 +26,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     itemId: DataTypes.INTEGER
+    
   }, {
     sequelize,
     modelName: 'Ingredient',

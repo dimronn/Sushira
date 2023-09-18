@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "P3-resto",
+    "database": "P3-resto-C2",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

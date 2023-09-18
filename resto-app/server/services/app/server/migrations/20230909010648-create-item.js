@@ -26,6 +26,9 @@ module.exports = {
         onDelete: "CASCADE",
         onUpdate: "CASCADE",
       },
+       mongoUserId: {
+        type: Sequelize.STRING,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

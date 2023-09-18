@@ -28,7 +28,7 @@ app.get("/users", async (req, res) => {
     console.log(error)
     res.status(500).json(error)
   }
-})
+}) 
 
 
 app.listen(port, () => {

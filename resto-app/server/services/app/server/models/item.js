@@ -27,7 +27,8 @@ module.exports = (sequelize, DataTypes) => {
     },
     imageUrl: DataTypes.STRING,
     
-    categoryId: DataTypes.INTEGER
+    categoryId: DataTypes.INTEGER,
+    mongoUserId: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Item',
