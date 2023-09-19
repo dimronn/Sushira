@@ -11,7 +11,7 @@ const server = new ApolloServer({
 })
 
 startStandaloneServer(server, {
-  listen: { port: 5000 },
+  listen: { port: process.env.PORT || 4000 },
 }).then(({ url }) => { 
   console.log(`Server connected at ${url}`) 
 })  

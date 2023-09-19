@@ -1,0 +1,11 @@
+services:
+    app-service:
+        build: ./services/app
+        ports:
+            - "4002:4002"
+        environment:
+            MY_SECRET_KEY: ${MY_SECRET_KEY}
+    user-service:
+        build: ./services/user
+        ports:
+            - "4001:4001"

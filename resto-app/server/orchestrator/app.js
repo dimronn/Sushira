@@ -5,7 +5,7 @@ const Redis = require("ioredis");
 const redis = new Redis();
 
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 2000
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())

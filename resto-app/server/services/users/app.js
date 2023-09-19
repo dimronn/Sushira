@@ -5,7 +5,7 @@ const User = require('./controllers/users')
 const {connect} = require('./connect')
 const errorHandler = require('../app/server/middlewares/errorHandlers')
 const app = express()
-const port = 4001
+const port = process.env.PORT || 4001
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())

@@ -92,6 +92,13 @@ export default function Details({ route }) {
                   </Text>
                 );
               })}
+               <Text
+                adjustsFontSizeToFit={true}
+                allowFontScaling={true}
+                style={styles.info}
+              >
+                User:{item.mongoUserId}
+              </Text>
               <View style={ {margin:50} }>
                 <Button
                   title="Back To Menu"

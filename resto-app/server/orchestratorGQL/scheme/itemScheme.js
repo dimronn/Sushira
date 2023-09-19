@@ -1,6 +1,12 @@
 const axios = require('axios')
 const Redis = require("ioredis")
-const redis = new Redis();
+require('dot-env').config()
+const redis = new Redis({
+  port: 6379, // Redis port
+  host: "redis-17836.c299.asia-northeast1-1.gce.cloud.redislabs.com", // Redis host
+  username: "default", // needs Redis >= 6
+  password: process.env.REDISPASS 
+});
 const baseUrl = "http://localhost:4002"
 const itemTypeDefs = `#graphql 
 type Item {
@@ -23,6 +29,18 @@ type Ingredient {
 }
 
 
+type Response {
+  message:String
+  }
+
+input FormItem {
+  name:String!
+  imageUrl:String!
+  categoryId:String!
+  mongoUserId:String
+ 
+  }
+
 type Query {
   items: [Item] # GET/items
   categories: [Category] # GET/categories
@@ -32,6 +50,11 @@ type Query {
   itemByCategory(categoryId: String):Item
 
  
+}
+type Mutation {
+  addItem(inputItem: FormItem): Response
+  
+
 }
 
 `;
@@ -124,6 +147,25 @@ const itemResolvers = {
       }
     },
   },
+
+  Mutation: {
+    addItem: async (_, args) => { 
+      try {
+        console.log(args)
+         const  {data}  = await axios({
+        method: "POST",
+        url: baseUrl + "/items",
+        data: {
+          ...args.inputUser
+        }
+      })
+        
+      } catch (error) {
+        console.log(error)
+        return error
+      }
+    }
+  }
 
 };
 
