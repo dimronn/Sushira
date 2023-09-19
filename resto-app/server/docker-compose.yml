@@ -1,6 +1,6 @@
 services:
     app-service:
-        build: ./services/app
+        build: ./services/app/server
         ports:
             - "4002:4002"
         environment: 
@@ -9,8 +9,7 @@ services:
           NODE_ENV: "production"
           PORT: 80
           JWT_SECRET: 'rahasia'
-
     user-service:
-        build: ./services/user
+        build: ./services/users
         ports:
             - "4001:4001"
