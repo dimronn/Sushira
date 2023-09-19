@@ -1,0 +1,233 @@
+[
+	{
+		"id" : 1,
+		"name" : "Salmon",
+		"itemId" : 1,
+		"createdAt" : "2023-09-10T02:51:20.125Z",
+		"updatedAt" : "2023-09-10T02:51:20.125Z"
+	},
+	{
+		"id" : 2,
+		"name" : "Lemon",
+		"itemId" : 1,
+		"createdAt" : "2023-09-10T02:51:20.125Z",
+		"updatedAt" : "2023-09-10T02:51:20.125Z"
+	},
+	{
+		"id" : 3,
+		"name" : "Tuna",
+		"itemId" : 2,
+		"createdAt" : "2023-09-10T02:51:40.276Z",
+		"updatedAt" : "2023-09-10T02:51:40.276Z"
+	},
+	{
+		"id" : 4,
+		"name" : "Lemon",
+		"itemId" : 2,
+		"createdAt" : "2023-09-10T02:51:40.276Z",
+		"updatedAt" : "2023-09-10T02:51:40.276Z"
+	},
+	{
+		"id" : 5,
+		"name" : "Chicken",
+		"itemId" : 3,
+		"createdAt" : "2023-09-10T02:52:42.939Z",
+		"updatedAt" : "2023-09-10T02:52:42.939Z"
+	},
+	{
+		"id" : 6,
+		"name" : "Shrimp",
+		"itemId" : 3,
+		"createdAt" : "2023-09-10T02:52:42.939Z",
+		"updatedAt" : "2023-09-10T02:52:42.939Z"
+	},
+	{
+		"id" : 7,
+		"name" : "Bamboo Shoot",
+		"itemId" : 3,
+		"createdAt" : "2023-09-10T02:52:42.939Z",
+		"updatedAt" : "2023-09-10T02:52:42.939Z"
+	},
+	{
+		"id" : 11,
+		"name" : "Chicken",
+		"itemId" : 5,
+		"createdAt" : "2023-09-10T02:54:03.702Z",
+		"updatedAt" : "2023-09-10T02:54:03.702Z"
+	},
+	{
+		"id" : 12,
+		"name" : "Rice",
+		"itemId" : 5,
+		"createdAt" : "2023-09-10T02:54:03.702Z",
+		"updatedAt" : "2023-09-10T02:54:03.702Z"
+	},
+	{
+		"id" : 15,
+		"name" : "Lettuce",
+		"itemId" : 7,
+		"createdAt" : "2023-09-10T02:58:36.976Z",
+		"updatedAt" : "2023-09-10T02:58:36.976Z"
+	},
+	{
+		"id" : 16,
+		"name" : "Corn",
+		"itemId" : 7,
+		"createdAt" : "2023-09-10T02:58:36.976Z",
+		"updatedAt" : "2023-09-10T02:58:36.976Z"
+	},
+	{
+		"id" : 17,
+		"name" : "Spinach",
+		"itemId" : 7,
+		"createdAt" : "2023-09-10T02:58:36.976Z",
+		"updatedAt" : "2023-09-10T02:58:36.976Z"
+	},
+	{
+		"id" : 18,
+		"name" : "Egg",
+		"itemId" : 8,
+		"createdAt" : "2023-09-10T02:59:47.789Z",
+		"updatedAt" : "2023-09-10T02:59:47.789Z"
+	},
+	{
+		"id" : 19,
+		"name" : "Rice",
+		"itemId" : 8,
+		"createdAt" : "2023-09-10T02:59:47.789Z",
+		"updatedAt" : "2023-09-10T02:59:47.789Z"
+	},
+	{
+		"id" : 20,
+		"name" : "Seaweed",
+		"itemId" : 8,
+		"createdAt" : "2023-09-10T02:59:47.789Z",
+		"updatedAt" : "2023-09-10T02:59:47.789Z"
+	},
+	{
+		"id" : 21,
+		"name" : "Octopus",
+		"itemId" : 9,
+		"createdAt" : "2023-09-10T03:00:26.892Z",
+		"updatedAt" : "2023-09-10T03:00:26.892Z"
+	},
+	{
+		"id" : 22,
+		"name" : "Rice",
+		"itemId" : 9,
+		"createdAt" : "2023-09-10T03:00:26.892Z",
+		"updatedAt" : "2023-09-10T03:00:26.892Z"
+	},
+	{
+		"id" : 23,
+		"name" : "Seaweed",
+		"itemId" : 9,
+		"createdAt" : "2023-09-10T03:00:26.892Z",
+		"updatedAt" : "2023-09-10T03:00:26.892Z"
+	},
+	{
+		"id" : 24,
+		"name" : "Rice",
+		"itemId" : 10,
+		"createdAt" : "2023-09-10T03:00:58.392Z",
+		"updatedAt" : "2023-09-10T03:00:58.392Z"
+	},
+	{
+		"id" : 25,
+		"name" : "Beef",
+		"itemId" : 10,
+		"createdAt" : "2023-09-10T03:00:58.392Z",
+		"updatedAt" : "2023-09-10T03:00:58.392Z"
+	},
+	{
+		"id" : 26,
+		"name" : "Cheese",
+		"itemId" : 10,
+		"createdAt" : "2023-09-10T03:00:58.392Z",
+		"updatedAt" : "2023-09-10T03:00:58.392Z"
+	},
+	{
+		"id" : 27,
+		"name" : "Beef",
+		"itemId" : 11,
+		"createdAt" : "2023-09-10T03:01:46.762Z",
+		"updatedAt" : "2023-09-10T03:01:46.762Z"
+	},
+	{
+		"id" : 28,
+		"name" : "Noodle",
+		"itemId" : 11,
+		"createdAt" : "2023-09-10T03:01:46.762Z",
+		"updatedAt" : "2023-09-10T03:01:46.762Z"
+	},
+	{
+		"id" : 29,
+		"name" : "Toppings",
+		"itemId" : 11,
+		"createdAt" : "2023-09-10T03:01:46.762Z",
+		"updatedAt" : "2023-09-10T03:01:46.762Z"
+	},
+	{
+		"id" : 30,
+		"name" : "Salmon",
+		"itemId" : 12,
+		"createdAt" : "2023-09-10T03:02:37.799Z",
+		"updatedAt" : "2023-09-10T03:02:37.799Z"
+	},
+	{
+		"id" : 31,
+		"name" : "Lemon",
+		"itemId" : 12,
+		"createdAt" : "2023-09-10T03:02:37.799Z",
+		"updatedAt" : "2023-09-10T03:02:37.799Z"
+	},
+	{
+		"id" : 32,
+		"name" : "Radish",
+		"itemId" : 12,
+		"createdAt" : "2023-09-10T03:02:37.799Z",
+		"updatedAt" : "2023-09-10T03:02:37.799Z"
+	},
+	{
+		"id" : 33,
+		"name" : "Tea",
+		"itemId" : 13,
+		"createdAt" : "2023-09-10T03:03:17.076Z",
+		"updatedAt" : "2023-09-10T03:03:17.076Z"
+	},
+	{
+		"id" : 34,
+		"name" : "Water",
+		"itemId" : 13,
+		"createdAt" : "2023-09-10T03:03:17.076Z",
+		"updatedAt" : "2023-09-10T03:03:17.076Z"
+	},
+	{
+		"id" : 35,
+		"name" : "Ice",
+		"itemId" : 13,
+		"createdAt" : "2023-09-10T03:03:17.076Z",
+		"updatedAt" : "2023-09-10T03:03:17.076Z"
+	},
+	{
+		"id" : 36,
+		"name" : "Rice",
+		"itemId" : 14,
+		"createdAt" : "2023-09-10T03:03:53.295Z",
+		"updatedAt" : "2023-09-10T03:03:53.295Z"
+	},
+	{
+		"id" : 37,
+		"name" : "Beef",
+		"itemId" : 14,
+		"createdAt" : "2023-09-10T03:03:53.295Z",
+		"updatedAt" : "2023-09-10T03:03:53.295Z"
+	},
+	{
+		"id" : 38,
+		"name" : "Veggies",
+		"itemId" : 14,
+		"createdAt" : "2023-09-10T03:03:53.295Z",
+		"updatedAt" : "2023-09-10T03:03:53.295Z"
+	}
+]
