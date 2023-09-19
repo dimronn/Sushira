@@ -1,8 +1,8 @@
 FROM node:18.17.1
 
-WORKDIR /var/www/services/user
+WORKDIR /var/www/services/user/
 
-COPY package.json package.json
+COPY package*.json ./
 
 RUN npm install 
 
