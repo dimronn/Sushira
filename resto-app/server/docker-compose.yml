@@ -4,7 +4,11 @@ services:
         ports:
             - "4002:4002"
         environment:
-            MY_SECRET_KEY: ${MY_SECRET_KEY}
+  DATABASE_URL: "postgresql://postgres:Z0F62MLUEruNVw9q@db.vgbypelgjuuqgfclikkr.supabase.co:5432/postgres"
+  REDISPASS: 'BYW3rmkjV4DeuxWLboyy2ef1JfWh9qyh'
+  NODE_ENV: "production"
+  PORT: 80
+  JWT_SECRET: 'rahasia'
     user-service:
         build: ./services/user
         ports:
