@@ -2,7 +2,7 @@ FROM node:18.17.1
 
 WORKDIR /var/www/orchestrator
 
-COPY package*.json .
+COPY package*.json 
 
 RUN npm install 
 
