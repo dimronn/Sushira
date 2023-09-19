@@ -1,6 +1,6 @@
 FROM node:18.17.1
 
-WORKDIR /var/www/orchestrator/
+WORKDIR /var/www/orchestrator
 
 COPY package*.json ./
 
