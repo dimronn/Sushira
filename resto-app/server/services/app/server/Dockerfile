@@ -2,11 +2,11 @@ FROM node:18.17.1
 
 WORKDIR /var/www/services/app
 
-COPY package*.json ./
+COPY package*.json .
 
 RUN npm install 
 
-COPY . .
+COPY ./ ./
 
 EXPOSE 4002
 
