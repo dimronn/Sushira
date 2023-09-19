@@ -22,6 +22,7 @@ app.get("/items", async (req, res, next) => {
   console.log('masukItems')
   console.log(req.query);
   let categoryId = req.query.categoryId;
+  console.log(categoryId)
   let filter = req.query.filter;
   if (!filter) {
     filter = "";

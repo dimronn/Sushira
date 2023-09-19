@@ -14,6 +14,7 @@ type Item {
 }
 
 type Category {
+  id:ID
   name: String
 }
 
@@ -28,15 +29,14 @@ type Query {
   ingredients: [Ingredient] # GET/ingredients
 
   itemById(id: ID): Item #GET/item/:id
-  categoryById(id: ID): Category #GET/category/:id
+  itemByCategory(categoryId: String):Item
 
-
-
+ 
 }
 
 `;
 
-const itemResolvers = {
+const itemResolvers = { 
   Query: {
     items: async () => {
       try {
@@ -111,18 +111,18 @@ const itemResolvers = {
         return error
       }
     },
-
-    categoryById: async (_,args) => { 
+ 
+    itemByCategory: async (_, args) => { 
       try {
         console.log(args)
-        const { data } = await axios.get(baseUrl + '/categories/' + args.id)
+        const { data } = await axios.get(baseUrl + '/items?categoryId=' + args.categoryId)
         console.log(data)
-        return data.items
+        return data.items[0]
       } catch (error) {
         console.log(error)
         return error
       }
-    }
+    },
   },
 
 };

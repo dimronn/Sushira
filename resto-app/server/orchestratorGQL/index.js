@@ -6,11 +6,12 @@ const { itemTypeDefs, itemResolvers } = require('./scheme/itemScheme');
 const server = new ApolloServer({
   typeDefs: [userTypeDefs, itemTypeDefs],
   resolvers: [userResolvers, itemResolvers],
-  status400ForVariableCoercionErrors:true,
+  status400ForVariableCoercionErrors: true,
+  introspection: true
 })
 
 startStandaloneServer(server, {
   listen: { port: 5000 },
 }).then(({ url }) => { 
-  console.log(`Server connected at ${url}`)
+  console.log(`Server connected at ${url}`) 
 })  

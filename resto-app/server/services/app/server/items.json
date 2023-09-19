@@ -2,7 +2,7 @@
 	{
 		"id" : 1,
 		"name" : "Salmon Sashimi",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/salmon-sashimi.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Little-Bite/Salmon-Sashimi.png",
 		"categoryId" : 2,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T02:51:20.050Z",
@@ -11,7 +11,7 @@
 	{
 		"id" : 2,
 		"name" : "Tuna Sashimi",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/tuna-sashimi.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Little-Bite/Salmon-Sashimi.png",
 		"categoryId" : 2,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T02:51:40.215Z",
@@ -20,7 +20,7 @@
 	{
 		"id" : 3,
 		"name" : "Gyoza",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/chicken-and-shrimp-gyoza.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Little-Bite/Yakitori.png",
 		"categoryId" : 3,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T02:52:42.883Z",
@@ -29,7 +29,7 @@
 	{
 		"id" : 5,
 		"name" : "Chicken Katsu",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/chicken-katsu.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Rice-Bowl/Chicken-Katsu-Don.png",
 		"categoryId" : 3,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T02:54:03.647Z",
@@ -38,7 +38,7 @@
 	{
 		"id" : 7,
 		"name" : "Salad",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/corn-salad.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Little-Bite/Edamame.png",
 		"categoryId" : 1,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T02:58:36.913Z",
@@ -47,7 +47,7 @@
 	{
 		"id" : 8,
 		"name" : "Egg Nigiri",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/egg-nigiri.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Nigiri/Fried-Cikua-Nigiri.png",
 		"categoryId" : 9,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T02:59:47.733Z",
@@ -56,7 +56,7 @@
 	{
 		"id" : 9,
 		"name" : "Octopus Gunkan",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/baby-octopus-gunkan.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Nigiri/Tobik-Gunkan.png",
 		"categoryId" : 10,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T03:00:26.842Z",
@@ -65,7 +65,7 @@
 	{
 		"id" : 10,
 		"name" : "Beef Cheese Roll",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/beef-cheese-roll.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Sushi-Roll/Katsu-Roll.png",
 		"categoryId" : 8,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T03:00:58.320Z",
@@ -74,7 +74,7 @@
 	{
 		"id" : 11,
 		"name" : "Beef Udon",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/beef-udon.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Rice-Bowl/Chicken-Katsu-Curry.png",
 		"categoryId" : 6,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T03:01:46.711Z",
@@ -83,7 +83,7 @@
 	{
 		"id" : 12,
 		"name" : "Grilled Salmon",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/grilled-salmon.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Dragon-Roll/Dragon-Salmon-Roll.png",
 		"categoryId" : 4,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T03:02:37.748Z",
@@ -92,7 +92,7 @@
 	{
 		"id" : 13,
 		"name" : "Cold Tea",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/cold-green-tea.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Drinks/Ocha.png",
 		"categoryId" : 7,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T03:03:17.013Z",
@@ -101,7 +101,7 @@
 	{
 		"id" : 14,
 		"name" : "Deluxe Teriyaki",
-		"imageUrl" : "https://genkisushi.co.id/media/2020/06/deluxe-chicken-teriyaki-bento.jpg",
+		"imageUrl" : "https://sushinoi.co.id/assets/img/Rice-Bowl/Chicken-Teriyaki-Don.png",
 		"categoryId" : 5,
 		"mongoUserId": "6502abc8e8b4c74404eccb7c",
 		"createdAt" : "2023-09-10T03:03:53.233Z",
